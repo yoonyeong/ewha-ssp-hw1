@@ -5,8 +5,8 @@
  * GitHub Setup Homework 
  * Instructor: Prof. HyungJune Lee
  *
- * Coded by Kim Yoonyeong
- * Mar 27, 2016
+ * Coded by xx xx
+ * Mar xx, 2015
  *
  */
 
