@@ -5,8 +5,8 @@
  * GitHub Setup Homework 
  * Instructor: Prof. HyungJune Lee
  *
- * Coded by xx xx
- * Mar xx, 2015
+ * Coded by Kim Yoonyeong
+ * Mar 28, 2015
  *
  */
 
@@ -15,11 +15,26 @@
  
 void setup() {
   //Add your code of Lab Assignment #1
- 
+ pinMode(FRONT_LED_PIN,OUTPUT);
+  pinMode(REAR_LED_PIN,OUTPUT);
 
 }
 
 void loop() {
   //Add your code of Lab Assignment #1  
+	analogWrite(FRONT_LED_PIN,i);
+    analogWrite(REAR_LED_PIN,j);
+    delay(11);
+    if(j==0) temp=1;
+    if(j==255) temp=0;
+    if(temp==1)
+        {
+        	j=j+1;
+        	i=i-1;
+        }
+    else{
+    	i=i+1;
+    	j=j-1;
+    }
   
 }
